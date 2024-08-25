@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avanthika - Web Developer </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header,
+        section,
+        footer {
+            margin: 20px;
+        }
+        
+        .highlight {
+            color: purple;
+            text-decoration: underline;
+        }
+        
+        .hidden-content {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="main-title" tabindex="1" title="Welcome to Avanthika's Portfolio">Avanthika</h1>
+        <p lang="en">Web Developer | Programmer</p>
+        <nav>
+            <ul>
+                <li><a href="#about" accesskey="a" target="_self">About Me</a></li>
+                <li><a href="#projects" accesskey="p" target="_self">Projects</a></li>
+                <li><a href="#contact" accesskey="c" target="_self">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section id="about" contenteditable="true">
+        <h2>About Me</h2>
+        <p>Hi, I'm Avanthika, a passionate web developer. I have a constant drive for success, always looking to advance in my line of work. I have an insatiable thirst for knowledge and work hard to acquire fresh skills. Every obstacle presents a potential
+            for growth, and every setback presents an opportunity for adaptation and learning. I welcome change because I know that it is what drives advancement. I push the limits of what I can do with every project, which stokes my desire to get better.
+            My path has been one of constant improvement, propelled by an unwavering will to succeed and make a significant contribution to my industry.
+        </p>
+    </section>
+    <hr>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div draggable="true">
+            <h3>Portfolio Website</h3>
+            <p data-description="A personal portfolio built using HTML, CSS, and JavaScript.">
+                A personal portfolio website showcasing my skills and projects.
+            </p>
+            <p>
+                <a href="https://avanthikaselvakumar.github.io/My_Portfolio/" target="_blank" rel="noopener" class="highlight" type="text/html" hreflang="en" referrerpolicy="no-referrer" ping="https://www.tracker.com/ping">
+                    View Project
+                </a>
+            </p>
+            <p>
+                <a href="file.zip" download="ProjectSourcecode.zip" class="highlight">
+                    Download Project Source Code
+                </a>
+            </p>
+        </div>
+        <div draggable="true">
+            <h3>Landing Page with swiper</h3>
+            <p data-description="A landing page with swiper about aquatic animals.">
+                A landing page built with swiper using web technologies.
+            </p>
+            <p>
+                <a href="https://avanthikaselvakumar.github.io/Landingpage/" target="_blank" rel="noopener" class="highlight" type="text/html" hreflang="en" referrerpolicy="no-referrer" ping="https://www.tracker.com/ping">
+                View Project
+                </a>
+            </p>
+            <p>
+                <a href="file.zip" download="ProjectSourcecode.zip" class="highlight">
+                    Download Project Source Code
+                </a>
+            </p>
+        </div>
+    </section>
+    <hr>
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Name :</td>
+                    <td><input type="text" spellcheck="true"></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" spellcheck="true"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Send"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <div class="hidden-content " hidden>
+        <p>This content is hidden by default.</p>
+    </div>
+    <hr>
+    <footer>
+        <p>&copy; 2024 Avanthika. All rights reserved.</p>
+        <p>
+            <a href="https://www.linkedin.com/in/avanthika-s-596a9a25b/" target="_blank" rel="noopener">Connect on LinkedIn</a></p>
+    </footer>
+
+</body>
+
+</html>
