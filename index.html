@@ -16,7 +16,8 @@
         
         header,
         section,
-        footer {
+        footer,
+        form {
             margin: 20px;
         }
         
@@ -111,6 +112,44 @@
     <div class="hidden-content " hidden>
         <p>This content is hidden by default.</p>
     </div>
+    <hr>
+    <form>
+        <h1>Registeration Form</h1>
+        <label for="">First Name:</label>
+        <input type="text" name="firstname" id="firstname" required autofocus="true" autocomplete="true" placeholder="First Name"><br><br>
+        <label for="">Last Name:</label>
+        <input type="text" name="lasttname" id="lasttname" required placeholder="Last Name"><br><br>
+        <label for=" ">Email:</label>
+        <input type="email" name="Email" id="Email" required placeholder="Email"><br><br>
+        <label for="">Create Password:</label>
+        <input type="password" name="password" id="password" pattern=".{8,}" title="password must be Eight or more characters" required placeholder="password"><br><br>
+        <label for=" ">DOB:</label>
+        <input type="date" name="DOB " id="DOB " required><br><br>
+        <label for=" ">Gender:</label>
+        <input type="radio" name="gender "> Male
+        <input type="radio" name="gender "> Female<br><br>
+        <label for=" ">Known Languages:</label>
+        <input type="CheckBox" name="languages" id="languages">Tamil<br>
+        <input type="CheckBox" name="languages" id="languages">Enlish<br>
+        <input type="CheckBox" name="languages" id="languages">Hindi<br><br>
+        <label for=" ">State:</label>
+        <select>       
+            <option value="1">Andhra Pradesh</option>
+            <option value="2">Delhi</option>
+            <option value="3">Kerala</option>
+            <option value="4">Tamilnadu</option>
+        </select><br><br>
+        <label for=" ">Country:</label>
+        <select>
+            <option>America</option>
+            <option>China</option>
+            <option selected>India</option>
+            <option>Korea</option>
+        </select><br><br>
+        <input type="checkbox" checked> I agree to the terms and conditions <br><br>
+        <input type="submit">
+    </form>
+
     <hr>
     <footer>
         <p>&copy; 2024 Avanthika. All rights reserved.</p>
