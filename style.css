@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0%;
+    padding: 0%;
+}
+
+header,
+section,
+footer {
+    margin: 20px;
+}
+
+.highlight {
+    color: purple;
+    text-decoration: underline;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.navhead {
+    display: inline;
+}
+
+li {
+    font-size: 20px;
+}
+
+ul {
+    margin-left: 50%;
+}
+
+.heading {
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 5px;
+}
+
+#aboutpara {
+    line-height: 1.6;
+}
+
+.skill {
+    line-height: 1.6;
+}
+
+#heading {
+    font-size: 30px;
+}
