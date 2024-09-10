@@ -1,51 +1,159 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0%;
-    padding: 0%;
-}
-
-header,
-section,
-footer {
-    margin: 20px;
-}
-
-.highlight {
-    color: purple;
-    text-decoration: underline;
-}
-
-.hidden-content {
-    display: none;
-}
-
-.navhead {
-    display: inline;
-}
-
-li {
-    font-size: 20px;
-}
-
-ul {
-    margin-left: 50%;
-}
-
-.heading {
-    background-color: blueviolet;
-    padding: 10px;
-    margin: 5px;
-}
-
-#aboutpara {
-    line-height: 1.6;
-}
-
-.skill {
-    line-height: 1.6;
-}
-
-#heading {
-    font-size: 30px;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    nav {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 75px;
+        background: #2980b9;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar .menu li>a:hover {
+        color: black;
+    }
+    
+    nav .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        max-width: 90%;
+        background: #2980b9;
+        margin: auto;
+    }
+    
+    nav .navbar .logo a {
+        color: #fff;
+        font-size: 27px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    nav .navbar .menu {
+        display: flex;
+    }
+    
+    .navbar .menu li {
+        list-style: none;
+        margin: 0 15px;
+    }
+    
+    .navbar .menu li a {
+        color: #fff;
+        font-size: 17px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+    /*----------------------------------------------------------------------------------*/
+    /*  Header
+/*-----------------------------------------------------------------------------------*/
+    
+    #header {
+        background: url("../Avanthika.github.io/Images/bg.avif") repeat scroll center center / cover;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    #header .header-content {
+        height: 100vh;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .header-content h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    
+    .header-content p {
+        font-size: 13px;
+        letter-spacing: 5px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-transform: capitalize;
+        color: #fff;
+        font-weight: 500;
+    }
+    
+    #about {
+        background: #fff;
+    }
+    
+    #education {
+        background: #fff;
+    }
+    
+    #skills {
+        background: rgb(215, 207, 207);
+    }
+    
+    #projects {
+        background: #fff;
+    }
+    
+    #Contact {
+        background: #f2f2f2;
+    }
+    
+    .button a {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        color: #fff;
+        background: #2980b9;
+        padding: 7px 12px;
+        font-size: 18px;
+        border-radius: 6px;
+        box-shadow: rgba(0, 0, 0, 0.15);
+    }
+    
+    .heading {
+        margin: 5px;
+        text-align: center;
+        background-color: #2980b9;
+        color: #f2f2f2;
+        padding: 5px;
+    }
+    
+    section {
+        margin: 10px;
+    }
+    
+    #aboutpara {
+        line-height: 1.6;
+    }
+    
+    .skill {
+        line-height: 1.6;
+    }
+    
+    #heading {
+        font-size: 30px;
+    }
+    
+    footer {
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        height: 200px;
+        padding-top: 80px;
+    }
+    
+    footer p a {
+        text-decoration: none;
+        color: #fff;
+    }
