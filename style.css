@@ -97,6 +97,18 @@
         background: #fff;
     }
     
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .container div {
+        width: 200px;
+        margin: 10px;
+        flex-basis: 30%;
+    }
+    
     #skills {
         background: rgb(215, 207, 207);
     }
